@@ -31,7 +31,7 @@ public final class AdventOfCode19P1 {
       } else if (args.length == 1) {
         lines = Files.lines(Path.of(args[0])).toList();
       } else {
-        System.err.println("Usage: java AdventOfCode18P1.java [FILE ?]");
+        System.err.println("Usage: java AdventOfCode19P1.java [FILE ?]");
         return;
       }
       
